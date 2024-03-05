@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Esercizio 3</title>
+</head>
+
+<body>
+    <h1 class="text-center mt-5 titolo">Cinema Orwell</h1>
+    <p class="text-center fs-5">Dal 1984</p>
+
+
+
+    <form action="selectTabella.php" method="post" class="m-3">
+
+        <select class="form-select w-25" name="tabelle" id="tabelle">
+            <option value="attori">Attori</option>
+            <option value="film">Film</option>
+            <option value="recensioni">Recensioni</option>
+            <option value="sale">Sale</option>
+        </select>
+
+
+        <input type="submit" value="Mostra tabella" class="mt-4">
+
+    </form>
+    <a href="../index.html"><button type="button" class="btn btn-warning btn-sm m-3">Torna alla home</button></a>
+</body>
+
+</html>
