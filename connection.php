@@ -2,7 +2,7 @@
 $servername = "localhost";
 $user = "root";
 $password = "";
-$dbname = "cinema";
+$dbname = "nuovocinema";
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
